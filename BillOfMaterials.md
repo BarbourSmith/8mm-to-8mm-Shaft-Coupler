@@ -2,3 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
+|8mm Shaft Coupler|1|$2.70|https://www.amazon.com/WEIJ-Coupling-Diameter-Aluminum-Connector/dp/B07MBGP5BP|
+|Total: |1|$2.70| |
+
+ 3xCOG MSRP: $8.10

@@ -10,6 +10,77 @@
             "topLevel": true,
             "allAtoms": [
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 136,
+                    "y": 87,
+                    "uniqueID": 699956,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 8
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 125,
+                    "y": 211,
+                    "uniqueID": 142313,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 19
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 286,
+                    "y": 133,
+                    "uniqueID": 985226,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 458,
+                    "y": 123,
+                    "uniqueID": 820444,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 25
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 652,
+                    "y": 112,
+                    "uniqueID": 663057,
+                    "ioValues": [],
+                    "selectedColorIndex": 0
+                },
+                {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 866,
+                    "y": 151,
+                    "uniqueID": 797309,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "8mm Shaft Coupler",
+                        "numberNeeded": 1,
+                        "costUSD": 2.7,
+                        "source": "https://www.amazon.com/WEIJ-Coupling-Diameter-Aluminum-Connector/dp/B07MBGP5BP",
+                        "totalNeeded": 0
+                    }
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -17,7 +88,49 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 699956,
+                    "ap2ID": 985226
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 142313,
+                    "ap2ID": 985226
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 985226,
+                    "ap2ID": 820444
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 820444,
+                    "ap2ID": 663057
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 663057,
+                    "ap2ID": 797309
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 797309
+                }
+            ],
             "fileTypeVersion": 1
         }
     ],
