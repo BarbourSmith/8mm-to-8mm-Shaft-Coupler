@@ -4,9 +4,3 @@
 
 ![](/project.svg)
 
-## 8mm to 8mm Shaft Coupler
-
-
-undefined
-
-
